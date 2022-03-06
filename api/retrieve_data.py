@@ -1,5 +1,3 @@
-import json
-from operator import methodcaller
 from index import app
 from api.elastic_test import connect_elasticsearch
 from flask import jsonify, request
